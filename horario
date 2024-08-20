@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Horário de Aula</title>
+    <style>
+         table, td, tr, th{
+            border:1px solid black;
+            border-collapse: collapse;
+        }
+        #horar {
+            width: 300px;
+            height: 30px;
+            text-align: center;
+        }
+        td {
+            width: 300px;
+            height: 30px;
+            text-align: center;
+            color:aliceblue;
+        }
+        td:hover {
+            background-color: rgb(255, 255, 255);
+            color:black;
+        }
+        #inter {
+            background-color:rgb(165, 165, 165) ;
+            color:aliceblue;
+        }
+        #prat {
+            background-color:Violet ;
+        }
+        #tp {
+            background-color:DarkBlue ;
+        }
+        #jog {
+            background-color:DarkTurquoise ;
+        }
+        #des {
+            background-color:rgb(130, 255, 130);
+        }
+        #ban {
+            background-color:MediumPurple;
+        }
+
+        #qui {
+            background-color:MediumSlateBlue ;
+        }
+        #mat {
+            background-color:Red ;
+        }
+        #ing {
+            background-color:Gold;
+        }
+        #geo {
+            background-color:Chocolate ;
+        }
+        #por {
+            background-color:SteelBlue;
+        }
+
+        #bio {
+            background-color:SpringGreen;
+        }
+        #fis {
+            background-color:MediumBlue ;
+        }
+        #por {
+            background-color:SteelBlue;
+        }
+
+        #his {
+            background-color:PowderBlue;
+        }
+        #fil {
+            background-color:rgb(190, 190, 255) ;
+        }
+        
+
+
+    </style>
+</head>
+<body>
+    <p>
+        <table>
+            <tr id="horar">
+                <th>horario</th>
+                <th>segunda</th>
+                <th>terça</th>
+                <th>quarta</th>
+                <th>quinta</th>
+                <th>sexta</th>
+            </tr>
+            <tr>
+                <th>07:30</th>
+                <td>----</td>
+                <td>----</td>
+                <td>----</td>
+                <td>----</td>
+                <td>----</td>
+            </tr>
+            <tr>
+                <th>08:15</th>
+                <td id="prat">Prat.Prof I</td>
+                <td>----</td>
+                <td>----</td>
+                <td id="jog">ProJogDig</td>
+                <td>----</td>
+            </tr>
+            <tr>
+                <th>09:00</th>
+                <td id="prat"> Prat.Prof I</td>
+                <td>----</td>
+                <td id="des">DesInt</td>
+                <td id="jog">ProJogDig</td>
+                <td id="ban">BanDad</td>
+            </tr>
+            <tr id="inter">
+                <th>09:45</th>
+                <td>intervalo</td>
+                <td>intervalo</td>
+                <td>intervalo</td>
+                <td>intervalo</td>
+                <td>intervalo</td>
+            </tr>
+            <tr>
+                <th>10:00</th>
+                <td id="tp">TecPro</td>
+                <td>----</td>
+                <td id="des">DesInt</td>
+                <td id="tp">TecPro</td>
+                <td id="ban">BanDad</td>
+            </tr>
+            <tr>
+                <th>10:45</th>
+                <td id="tp">TecPro</td>
+                <td>----</td>
+                <td id="des">DesInt</td>
+                <td id="tp">TecPro</td>
+                <td id="ban">BanDad</td>
+            </tr>
+            <tr>
+                <th>11:30</th>
+                <td id="tp">TecPro</td>
+                <td>----</td>
+                <td id="des">DesInt</td>
+                <td id="tp">TecPro</td>
+                <td id="ban">BanDad</td>
+            </tr>
+            <tr id="inter">
+                <th>12:15</th>
+                <td>intervalo</td>
+                <td>intervalo</td>
+                <td>intervalo</td>
+                <td>intervalo</td>
+                <td>intervalo</td>
+            </tr>
+           
+            <tr>
+                <th>13:30</th>
+                <td id="qui">Quimic</td>
+                <td id="mat">Matema</td>
+                <td id="ing">Ingles</td>
+                <td>----</td>
+                <td>----</td>
+            </tr>
+            <tr>
+                <th>14:15</th>
+                <td id="qui">Quimic</td>
+                <td id="mat">Matema</td>
+                <td id="ing">Ingles</td>
+                <td id="geo">Geogra</td>
+                <td>----</td>
+            </tr>
+            <tr>
+                <th>15:00</th>
+                <td id="por">Portug</td>
+                <td id="bio">Biolog</td>
+                <td>----</td>
+                <td id="mat">Matema</td>
+                <td id="fis">Fisica</td>
+            </tr>
+            <tr id="inter">
+                <th>15:45</th>
+                <td>intervalo</td>
+                <td>intervalo</td>
+                <td>intervalo</td>
+                <td>intervalo</td>
+                <td>intervalo</td>
+            </tr>
+            <tr>
+                <th>16:00</th>
+                <td id="por">Portug</td>
+                <td id="bio">Biolog</td>
+                <td>----</td>
+                <td id="por">Portug</td>
+                <td id="fis">Fisica</td>
+            </tr>
+            <tr>
+                <th>16:45</th>
+                <td id="his">Histor</td>
+                <td>----</td>
+                <td>----</td>
+                <td id="mat">Matema</td>
+                <td id="por">Portug</td>
+            </tr>
+            <tr>
+                <th>17:30</th>
+                <td id="fil">FilSoc</td>
+                <td>----</td>
+                <td>----</td>
+                <td id="mat">Matema</td>
+                <td id="fis">Fisica</td>
+            </tr>
+            <tr id="inter">
+                <th>18:15</th>
+                <td>Saida</td>
+                <td>Saida</td>
+                <td>Saida</td>
+                <td>Saida</td>
+                <td>Saida</td>
+            </tr>
+           
+        </table>
+    </p>
+</body>
+</html>
